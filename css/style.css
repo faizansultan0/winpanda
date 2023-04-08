@@ -1,0 +1,1198 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+
+/* Body */
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+}
+
+/* Header */
+.homeHeader {
+    position: absolute;
+    width: 100%;
+}
+
+.topLeftPart {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.topLeftPart .logo{
+    display: inline-block;
+}
+
+.topLeftImgDiv {
+    display: inline-block;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.homeHeader .nav-parent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.homeHeader .navbar {
+    width: 60%;
+    display: inline-block;
+    padding: 10px 0;
+} 
+
+.homeHeader .navbar-nav {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.homeHeader .nav-item {
+    padding: 22px 0;
+}
+
+.homeHeader .nav-link {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: transparent;
+    transition: border-bottom ease-in 0.3s;
+}
+
+.homeHeader .nav-link:hover {
+    color: #f8a700;
+    padding-bottom: 6px;
+    border-bottom: 1px solid grey;
+}
+
+.homeHeader .secondUl {
+    list-style-type: none;
+}
+
+.homeHeader .secondUl>li {
+    display: inline-block;
+    padding: 12px 34px;
+    border: 2px solid white;
+    border-radius: 28px;
+    width: 128px;
+    text-align: center;
+    transition:  background-color ease-out 0.3s;
+}
+
+.homeHeader .secondUl>li:hover {
+    background-color: #f8a700;
+}
+
+.homeHeader  .secondUlLink {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.homeHeader .smLogo {
+    display: none;
+}
+
+
+.topRightPart {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    right: 0;
+}
+
+
+/* Banner */
+.homeBanner {
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 100%;
+    height: 920px;
+    box-shadow: 0px 10px 16px -4px rgba(0,0,0,0.61);
+}
+
+.homeBanner .content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeBanner .bannerWin {
+    width: 900px;
+}
+
+
+/* Second Part */
+.secondPart {
+    background-image: url('../images/secondPartBg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 170px;
+}
+
+/* About Us */
+.aboutUs .content {
+    padding-top: 40px;
+    padding-left: 40px;
+    font-weight: bold;
+}
+
+.aboutUs .aboutUsHeading {
+    color:#f8a700;
+    font-size: 18px;
+}
+
+.aboutUs .whoWeAreHeading {
+    font-size: 60px;
+    color: #f8a700;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.aboutUs .aboutUsPara {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 300;
+    margin-bottom: 24px;
+}
+
+.aboutUs ul {
+    list-style: circle;
+}
+
+.aboutUs li {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.aboutUs li::marker {
+    color: #f8a700;
+}
+
+/* How It Works */
+.howWorks {
+    margin-bottom: 100px;
+}
+
+.howWorks .content {
+    position: relative;
+    padding: 80px 0 80px 40px;
+}
+
+.howWorks .howWorksHeading {
+    color:#f8a700;
+    font-size: 18px;
+}
+
+.howWorks .followHeading {
+    margin-right: 40px;
+    font-size: 60px;
+    color: #f8a700;
+    font-weight: 900;
+}
+
+.howWorks .footPrintsHolder {
+    position: absolute;
+    top: 134px;
+    display: inline-block;
+}
+
+.howWorks .howWorksCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.howWorks .howWorksCardHeading {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.howWorks .howWorksCardPara {
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    width: 80%;
+}
+
+.howWorks .joinUsButton {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 18px 50px;
+    background-color: #f8a700;
+    border: 2px solid #f8a700;
+    border-radius: 48px;
+    transition: background-color ease-in 0.4s;
+}
+
+.howWorks .joinUsButton:hover {
+    background-color: transparent;
+}
+
+
+/* Who Is Ready */
+.whoReady {
+    position: relative;
+}
+
+.whoReady .whoReadyLeftIconDiv {
+    display: inline-block;
+    position: absolute;
+    top: 50;
+}
+
+.whoReady .whoReadyHeading {
+    text-align: center;
+    color:#f8a700;
+    font-size: 200px;
+    font-weight: 900;
+}
+
+.whoReady .kidsImageHolder {
+    margin-top: -60px;
+}
+
+
+/* Select Favourite Subjects */
+.favSubject .headPart {
+    text-align: center;
+    padding-top: 144px;
+    padding-bottom: 100px;
+    color: #1c202a;
+}
+
+.favSubject h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.favSubject h4 {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+
+/* Third Part */
+.thirdPart {
+    padding: 392px 0 0;
+}
+
+.thirdPart {
+    background-image: url('../images/thirdPartBg.jpg');
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Winners */
+.winners .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.winners .iconHolder {
+    width: 140px;
+    height: 140px;
+    background-color: #0f1809;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 34px;
+}
+
+.winners .winnersHeading {
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.winners .winnersPara {
+    font-size: 20px;
+    font-weight: 300;
+    width: 50%;
+    margin-bottom: 90px;
+}
+
+.winners .sessionHeading {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.winners .sessionPara {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 94px;
+}
+
+.winners .sessionCards {
+    margin-bottom: 50px;
+}
+
+.sessionCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.winners .sessionCard .outerEllipse {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 20px;
+    background-color: #ffffffac;
+    margin-bottom: 36px;
+}
+
+.winners .sessionCard img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.sessionCard .sessionCardName {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.sessionCard .info {
+    background-color: #ffffffac;
+    width: 90%;
+    padding: 10px 0;
+    transform: skewX(28deg);
+}
+
+.sessionCard .info ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    transform: skewX(-28deg);
+}
+
+.sessionCard .info li {
+    display: inline-block;
+}
+
+/* Get Rewards */
+.rewards {
+    padding-top: 60px;
+    padding-bottom: 500px;
+}
+
+.rewards .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rewards .rewardsHeading {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.rewards .rewardsPara {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.rewards .joinNowPara {
+    width: 80%;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.rewards .joinNowLink {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 16px 32px;
+    background-color: #1c202a;
+    border: 2px solid #1c202a;
+    border-radius: 30px;
+    transition: background-color ease-in 0.3s;
+}
+
+.rewards .joinNowLink:hover {
+    background-color: transparent;
+    color: #1c202a;
+}
+
+/* Footer Head Part */
+
+footer {
+    padding-top: 140px;
+    position: relative;
+}
+
+footer > .container {
+    display: flex;
+    justify-content: center;
+}
+
+footer .footerContent {
+    width: 50%;
+}
+
+footer .footerContent .headPart {
+    display: flex;
+    justify-content: space-between;
+    align-items:end;
+    border-top: 2px solid white;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+footer .headPart .leftIcon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+}
+
+footer .headPart .rightIcon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background-color: white;   
+}
+
+footer .headPart .centerLogo {
+    position: absolute;
+    display: inline-block;
+    background-color: #1c202a;
+    padding: 0 40px;
+    transform: translateX(-50%);
+    left: 50%;
+    top: -50%;
+}
+
+footer .headPart .headPartPara {
+    color: white;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+/* Footer Download Icons */
+
+footer .downloadIcons {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+footer .downloadIcons a {
+    display: inline-block;
+}
+
+footer .downloadIcon {
+    display: inline-block;
+}
+
+footer .downloadImage {
+    width: 200px;
+}
+
+/* Footer Social Icons */
+.socialIcons {
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.socialIcons .icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 2px solid white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 8px;
+    transition: background-color ease-in 0.3s;
+}
+
+.socialIcons .icon:hover {
+    background-color: #1c202a;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    font-size: 28px;
+    color: #1c202a;
+}
+
+.socialIcons a:hover {
+    color: white;
+}
+
+/* Footer Navigation */
+.footerNavUl {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footerNavItem {
+    display: inline-block;
+}
+
+.footerNavLink {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+.footerNavLink:hover {
+    color: #f8a700;
+}
+
+/* Footer Contact */
+.footerContactUl {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.footerContactLi {
+    display: inline-block;
+}
+
+.footerContactUl a {
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+}
+
+.footerContactUl a:hover .contactSmHide {
+    color: #f8a700;
+}
+
+.contactSmHide {
+    padding-left: 10px;
+}
+
+/* Footer Copy Right */
+.copyRightPara {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+
+/* Bottom Logos */
+.bottomLeftLogo {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.bottomRightLogo {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 1900px){
+    .topLeftPart .logo{
+        display: none;
+        top: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 1650px){
+    /* Who is Ready */
+    .whoReady .whoReadyLeftIconDiv {
+        width: 100px;
+        top: 50px;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    /* Header */
+    .topLeftPart {
+        display: none;
+    }
+
+    .topRightPart {
+        display: none;
+    }
+
+    /* Who is Ready */
+    .whoReady .whoReadyLeftIconDiv {
+        display: none;
+    }
+
+    /* Who is Ready */
+    .whoReady .whoReadyHeading {
+        font-size: 170px;
+    }
+    
+    .whoReady .kidsImageHolder {
+        margin-top: -56px;
+    }
+
+    /* Select Favourite Subjects */
+    .favSubject .headPart {
+        padding-top: 104px;
+        padding-bottom: 60px;
+    }
+
+    /* Footer */
+    footer .footerContent {
+        width: 70%;
+    }
+
+    /* Bottom Logos */
+
+    .bottomLeftLogo {
+        display: none;
+    }
+    
+    .bottomRightLogo {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1200px){
+    /* Header */
+    .homeHeader .secondUl>li {
+        padding: 8px 26px;
+    }
+
+
+    /* Banner */
+    .homeBanner .bannerWin {
+        width: 800px;
+    }
+
+    /* Second Part */
+    .secondPart {
+        padding-top: 110px;
+    }
+
+
+    /* Who is Ready */
+    .whoReady .whoReadyHeading {
+        font-size: 150px;
+    }
+    
+    .whoReady .kidsImageHolder {
+        margin-top: -50px;
+    }
+
+    /* Winners */
+    .winners .winnersPara {
+        width: 90%;
+    }
+
+    /* Select Favourite Subjects */
+    .favSubject .headPart {
+        padding-top: 90px;
+        padding-bottom: 40px;
+    }
+
+    .favSubject h4 {
+        font-size: 58px;
+    }
+}
+
+@media screen and (max-width: 991.8px) {
+    /* Header */
+    .secondUl {
+        display: none;
+    }
+
+    .homeHeader .smLogo {
+        display: inline-block;
+    }
+
+    .homeHeader .smLogo > a {
+        display: inline-block;
+    }
+
+    /* Setting Nav Links for Small Screens */
+    .nav-parent {
+        position: relative;
+    }
+
+    .navbar {
+        position: static;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        width: 100%;
+        top: 102%;
+        left: 0;
+    }
+
+    .navbar .nav-item {
+        background-color: #f8a700;
+        border-bottom: 1px solid white;
+        padding: 0 0 0 20px;
+    }
+
+    /* NavBar Toggler Setting */
+    .navbar-collapse.show {
+        display: block;
+    }
+    .navbar-toggler {
+        border: none;
+        padding: 0;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    } 
+
+
+    /* Banner */
+    .homeBanner .bannerWin {
+        width: 680px;
+    }
+
+
+    /* Second Part */
+    .secondPart {
+        padding-top: 80px;
+    }
+
+
+    /* How It Works? */
+    .howWorks .footPrintsHolder {
+        display: none;
+    }
+
+
+    /* Who is Ready */
+    .whoReady .whoReadyHeading {
+        font-size: 116px;
+    }
+    
+    .whoReady .kidsImageHolder {
+        margin-top: -40px;
+    }
+
+
+    /* Select Favourite Subjects */
+    .favSubject .headPart {
+        padding-top: 76px;
+        padding-bottom: 30px;
+    }
+
+    .favSubject h3 {
+        font-size: 17px;
+    }
+
+    .favSubject h4 {
+        font-size: 56px;
+    }
+
+
+    /* Footer */
+    footer .footerContent {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    /* Header */
+    .homeHeader .smLogo img {
+        width: 140px;
+    }
+
+    /* Banner */
+    .homeBanner {
+        height: 550px;
+    }
+
+    .homeBanner .bannerWin {
+        width: 420px;
+    }
+
+
+    /* Second Part */
+    .secondPart {
+        padding-top: 60px;
+    }
+
+    /* Who is Ready */
+    .whoReady .whoReadyHeading {
+        font-size: 86px;
+    }
+    
+    .whoReady .kidsImageHolder {
+        margin-top: -32px;
+    }
+
+    /* Select Favourite Subjects */
+    .favSubject .headPart {
+        padding-top: 64px;
+        padding-bottom: 22px;
+    }
+
+    .favSubject h3 {
+        font-size: 16px;
+    }
+
+    .favSubject h4 {
+        font-size: 50px;
+    }
+
+    /* Third Part */
+    .thirdPart {
+        padding-top: 380px;
+    }
+
+    /* Winners */
+    .winners .iconHolder {
+        display: none;
+    }
+
+    .winners .winnersHeading {
+        margin-bottom: 20px;
+        font-size: 54px;
+        margin-bottom: 6px;
+    }
+
+    .winners .winnersPara {
+        margin-bottom: 40px;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .winners .sessionPara {
+        margin-bottom: 24px;
+        font-size: 16px;
+    }
+
+    .winners .sessionCards {
+        margin-bottom: 0px;
+    }
+
+    .winners .sessionCard .outerEllipse {
+        margin-bottom: 4px;
+    }
+
+    /* Get Rewards */
+    .rewards {
+        padding-top: 0;
+    }
+
+    .rewards .rewardsHeading {
+        font-size: 56px;
+    }
+
+    .rewards .rewardsPara {
+        width: 100%;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .rewards .joinNowPara {
+        width: 100%;
+        font-size: 16px;
+        margin-bottom: 14px;
+    }
+
+    .rewards .joinNowLink {
+        font-size: 15px;
+        padding: 12px 24px;
+    }
+
+    /* Footer */
+    footer {
+        padding-top: 0;
+    }
+    /* Footer Navigation */
+    .footerNavUl {
+        display: none;
+    }
+
+    /* Footer Social Icons */
+    .socialIcons .icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .socialIcons a {
+        font-size: 26px;
+    }
+
+    /* Footer Contact */
+    .footerContactUl {
+        justify-content: center;
+    }
+
+    .footerContactUl a {
+        font-size: 26px;
+        padding: 0 14px;
+    }
+
+    .contactSmHide {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px){
+    /* Banner */
+    .homeBanner {
+        height: 600px;
+    }
+
+    .homeBanner .bannerWin {
+        width: 400px;
+    }
+
+
+    /* Second Part */
+    .secondPart {
+        padding-top: 36px;
+    }
+
+    /* AboutUs */
+    .aboutUs .aboutUsHeading {
+        font-size: 16px;
+    }
+    .aboutUs .whoWeAreHeading {
+        font-size: 44px;
+    }
+    .aboutUs .aboutUsPara {
+        font-size: 18px;
+    }
+    .aboutUs li {
+        font-size: 18px;
+    }
+
+    /* How It Works? */
+    .howWorks {
+        margin-bottom: 56px;
+    }
+
+    .howWorks .content {
+        padding: 50px 0 0px 40px;
+    }
+
+    .howWorks .howWorksHeading {
+        font-size: 16px;
+    }
+    .howWorks .followHeading {
+        font-size: 44px;
+    }
+
+    .howWorks .howWorksCardHeading {
+        font-size: 20px;
+    }
+    .howWorks .howWorksCardPara {
+        font-size: 16px;
+    }
+
+    .howWorks .joinUsButton {
+        padding: 14px 40px;
+        border-radius: 36px;
+    }
+
+
+    /* Who is Ready */
+    .whoReady .whoReadyHeading {
+        font-size: 74px;
+    }
+    
+    .whoReady .kidsImageHolder {
+        margin-top: -30px;
+    }
+
+
+    /* Select Favourite Subjects */
+    .favSubject .headPart {
+        padding-top: 46px;
+        padding-bottom: 16px;
+    }
+
+    .favSubject h3 {
+        font-size: 14px;
+    }
+
+    .favSubject h4 {
+        font-size: 46px;
+    }
+
+
+    /* Third Part */
+    .thirdPart {
+        padding-top: 370px;
+    }
+}
+
+@media screen and (max-width: 470px){
+    /* Banner */
+    .homeBanner {
+        height: 500px;
+    }
+
+    .homeBanner .bannerWin {
+        width: 350px;
+    }
+
+    /* About Us */
+    .aboutUs .whoWeAreHeading {
+        font-size: 36px;
+    }
+
+    /* How It Works */
+    .howWorks .followHeading {
+        font-size: 36px;
+    }
+
+    /* Who is Ready */
+    .whoReady .whoReadyHeading {
+        font-size: 57px;
+    }
+    
+    .whoReady .kidsImageHolder {
+        margin-top: -26px;
+    }
+
+
+    /* Select Favourite Subjects */
+    .favSubject .headPart {
+        padding-top: 32px;
+        padding-bottom: 4px;
+    }
+
+    .favSubject h3 {
+        margin-bottom: 1px;
+    }
+
+    .favSubject h4 {
+        font-size: 42px;
+    }
+
+
+    /* Footer */
+    footer .headPart .leftIcon {
+        width: 50px;
+        height: 50px;
+    }
+
+    footer .headPart .rightIcon {
+        width: 50px;
+        height: 50px;
+    }
+
+    footer .headPart .headPartPara {
+        font-size: 12px;
+    }
+
+    /* Footer Download Icons */
+    footer .downloadIcon {
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    /* Banner */
+    .homeBanner {
+        height: 380px;
+    }
+
+    .homeBanner .bannerWin {
+        width: 250px;
+    }
+
+    /* How It Works */
+    .howWorks .joinUsButton {
+        font-size: 14px;
+        padding: 10px 28px;
+        border-radius: 26px;
+    }  
+    
+    /* Who is Ready */
+    .whoReady .whoReadyHeading {
+        font-size: 42px;
+    }
+    
+    .whoReady .kidsImageHolder {
+        margin-top: -22px;
+    }
+
+    /* Third Part */
+    .thirdPart {
+        padding-top: 290px;
+    }
+
+
+    /* Footer */
+    footer .headPart .leftIcon {
+        width: 44px;
+        height: 44px;
+    }
+
+    footer .headPart .centerLogo {
+        padding: 0 24px;
+    }
+
+    footer .headPart .rightIcon {
+        width: 44px;
+        height: 44px;
+    }
+
+    footer .headPart .headPartPara {
+        font-size: 8px;
+    }
+
+    /* Footer Download Icons */
+    footer .downloadIcon {
+        width: 100px;
+    }
+
+    /* Footer Social Icons */
+    .socialIcons .icon {
+        margin: 0 4px;
+        width: 42px;
+        height: 42px;
+    }
+
+    .socialIcons a {
+        font-size: 22px;
+    }
+
+    /* CopyRight Para */
+    .copyRightPara {
+        font-size: 13px;
+    }
+}
